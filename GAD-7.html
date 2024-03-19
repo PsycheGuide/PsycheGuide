@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="GAD-7.css" />
+  </head>
+  <!-- This page is the GAD-7 Assessment page (GAD-7.html) This it the page where it redirects the user from clicking the submit button 
+    from the Forms page (Forms.html) and proceeds the user to answer the GAD-7 Assessment -->
+  <body>
+    <section class="container">
+      <header>GAD-7 ASSESSMENT FORM</header>
+      <form action="#" class="form">
+        <p>
+          Over the last 2 weeks, how often have you been bothered by any of the
+          following problems? (Fill the button indicate your answer”)
+        </p>
+        <div class="Question-box">
+          <h3>1. Feeling nervous, anxious or on edge</h3>
+          <div class="Question-option">
+            <div class="Question">
+              <input type="radio" id="A1_Not_at_all" name="A1" value="0" />
+              <label for="A1_Not_at_all">Not at all</label>
+            </div>
+            <div class="Question">
+              <input type="radio" id="A1_At_several_days" name="A1" value="1" />
+              <label for="A1_At_several_days">At several days</label>
+            </div>
+            <div class="Question">
+              <input
+                type="radio"
+                id="A1_More_than_half_the_days"
+                name="A1"
+                value="2"
+              />
+              <label for="A1_More_than_half_the_days"
+                >More than half the days</label
+              >
+            </div>
+            <div class="Question">
+              <input type="radio" id="A1_Nearly_everyday" name="A1" value="3" />
+              <label for="A1_Nearly_everyday">Nearly everyday</label>
+            </div>
+          </div>
+        </div>
+        <!-- -->
+        <div class="Question-box">
+          <h3>2. Not being able to stop or control worrying</h3>
+          <div class="Question-option">
+            <div class="Question">
+              <input type="radio" id="A2_Not_at_all" name="A2" value="0" />
+              <label for="A2_Not_at_all">Not at all</label>
+            </div>
+            <div class="Question">
+              <input type="radio" id="A2_At_several_days" name="A2" value="1" />
+              <label for="A2_At_several_days">At several days</label>
+            </div>
+            <div class="Question">
+              <input
+                type="radio"
+                id="A2_More_than_half_the_days"
+                name="A2"
+                value="2"
+              />
+              <label for="A2_More_than_half_the_days"
+                >More than half the days</label
+              >
+            </div>
+            <div class="Question">
+              <input type="radio" id="A1_Nearly_everyday" name="A2" value="3" />
+              <label for="A2_Nearly_everyday">Nearly everyday</label>
+            </div>
+          </div>
+        </div>
+        <!-- -->
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
