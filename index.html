@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <!-- This is index.html or the index page. This page is the default page when someone tries to access this website -->
+  <body>
+    <!-- div class="container" holds the body of the website-->
+    <div class="container">
+      <!-- div class="Menu" holds the header that holds the navigation_bars and Dev_Logo-->
+      <div class="Menu">
+        <ul>
+          <!-- li class="Dev_Logo" holds the app's Dev_Logo (I will change the Logo later)-->
+          <li class="Dev_Logo">
+            <img src="static/AquaNeko.gif" alt="Dev_Logo" />
+          </li>
+          <!-- nav class navigation bar holds the navigation buttons/menu -->
+          <nav class="navigation_bar">
+            <!-- "Home" is a menu in the navigation bar that should redirect to the index page  
+              (Although i think it's kinda useless to keep this since the button is in the index.html anyways)-->
+            <li><a href="index.html">Home</a></li>
+            <!-- "About us" a menu in the navigation bar that should redirect the user to the about.html (This is  the page where we flex)-->
+            <li><a href="about.html">About Us</a></li>
+            <!-- "Contact" is a menu in the navigation bar that should redirect to possible contacts (for Admin? or Dev's? I Dunno)-->
+            <li><a href="contacts.html">Contact</a></li>
+            <!-- "Help" is a menu in the navigation bar that should redirect the user to the help.html that shows users what to do-->
+            <li><a href="help.html">Help</a></li>
+          </nav>
+        </ul>
+      </div>
+      <!-- div class="Index_Banner" Holds the "Body" of the body (Background_IMG, Index_Description, h1 and Start-Btn)-->
+      <div class="Index_Banner">
+        <!-- div class="Index_Description" holds the h1 and the simple web-app description-->
+        <div class="Index_Description">
+          <!-- Main Header-->
+          <h1>Psychological Assessment</h1>
+          <!-- Simple description of the web-app-->
+          <p>
+            The Depression(PHQ-9), Anxiety(GAD-21), and Stress Scale (DASS-21)
+            are three self-report scales designed to measure the emotional
+            states of depression, anxiety, and stress.
+          </p>
+          <!-- "Start-Btn" should redirect the user to the next phase of the app which is the Forms.html-->
+          <a href="Forms.html" class="Start-Btn"><span>Get Started</span></a>
+        </div>
+      </div>
+      <!-- This is the Background_IMG of the index page-->
+      <img src="static/CROPPED_PSU_BACKGROUND_IMG.jpg" alt="Background Image" />
+    </div>
+  </body>
+</html>
