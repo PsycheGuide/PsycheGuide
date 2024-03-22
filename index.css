@@ -35,6 +35,8 @@
     width: 70px;
     margin-top: -7px;
     margin-right: 48px;
+    background: url(static/image2.png)no-repeat;
+    background-size: contain;
 }
 
 .navigation_bar ul {
